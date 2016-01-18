@@ -6,3 +6,9 @@ describe('GET /', function() {
     request(app).get('/').expect('hello jenkins', done);
   });
 });
+
+describe('GET /', function() {
+  it('respond with hello jenkins', function(done) {
+    request(app).get('/').expect('hello jenkins', done);
+  });
+});
